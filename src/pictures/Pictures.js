@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import got from './got.jpg';
-import images from './images.jpeg';
+import got from './got.png';
+import wolf from './wolf.jpg';
+import lion from './lion.png'
 import './Pictures.css'
 
 class Pictures extends Component {
@@ -8,9 +9,10 @@ class Pictures extends Component {
 
     render(){
         return(
-            <div>
+            <div className = "Pictures">
+                <img src = {wolf} className = {"picture-three"} alt = "wolf"/>
                 <img src = {got} className = {"picture"} alt = "crown"/>
-                <img src = {images} className = {"picture-two"} alt = "animals"/>
+                <img src = {lion} className = {"picture-two"} alt = "lion"/>
             </div>
         )
     }

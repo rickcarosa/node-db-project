@@ -1,16 +1,19 @@
-
+.Pictures{
+    display: flex;
+    justify-content: space-around;
+}
 
 .picture {
     width: 30%;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-top: 10px;
-   
+    height: 10%;
+    padding-top: 60px;
 }
 
 .picture-two {
-    width: 30%;
-    padding-bottom: 50px;
-    padding-top: 10px;
+    width:20%;
+    height: 10%;
+}
 
+.picture-three{
+    width: 20%;
 }
