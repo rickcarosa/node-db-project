@@ -1,0 +1,19 @@
+input {
+    padding-right: 30px;
+}
+
+button{
+    padding-left: 10px;
+}
+
+h3 {
+    font-family: fantasy;
+}
+
+.Add{
+    border-color: blue;
+}
+
+.Delete{
+    border-color: red;
+}

@@ -1,0 +1,28 @@
+.ModalBg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(10, 0, 0, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TheModal {
+    padding: 60px 200px;
+    background: white
+}
+
+.Blue{
+    padding: 10px 30px;
+    color: blue;
+}
+
+.Red{
+    padding: 10px 30px;
+    color: red;
+}
+
+.Name{
+    font-size: 30px;
+}
